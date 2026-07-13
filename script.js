@@ -15,3 +15,5 @@ for(let i = 0; i < 120; i++){
     star.style.animationDuration = 2 + Math.random()*4 + "s";
 
     stars.appendChild(star);
+
+}
