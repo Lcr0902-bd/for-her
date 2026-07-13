@@ -108,12 +108,17 @@ button:hover{
 
 }
 .stars{
-
-    position:fixed;
-
-    inset:0;
-
-    pointer-events:none;
+    
+    position:absolute;
+    width:4px;
+    height:4px;
+    background:white;
+    border-radius:50%;
+    opacity:.9;
+    box-shadow:
+        0 0 8px white,
+        0 0 16px white;
+    animation:twinkle infinite;
 
 }
 
